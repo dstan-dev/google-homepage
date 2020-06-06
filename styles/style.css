@@ -84,3 +84,26 @@
     left: 1rem;
     color: #cbcdd1;
 }
+
+.buttons {
+    margin-top: 1.5rem;
+}
+
+.search,
+.lucky {
+    height: 2.5rem;
+    margin: 0 0.5rem;
+    padding: 0.25rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #ebedf0;
+    color: #737475;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+.search:hover,
+.lucky:hover {
+    border: thin solid #737475;
+    color: #1e1e1e;
+}
